@@ -1,0 +1,92 @@
+# ==============================================================================
+# Node & Frontend Build Artifacts
+# ==============================================================================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================================================================
+# Python & Backend Artifacts
+# ==============================================================================
+__pycache__/
+backend/__pycache__/
+backend/tests/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==============================================================================
+# Python Virtual Environments
+# ==============================================================================
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+backend/venv/
+backend/.venv/
+
+# ==============================================================================
+# Testing & Code Quality
+# ==============================================================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ==============================================================================
+# Environment Variables, Secrets & Credentials
+# ==============================================================================
+.env
+.env*.local
+.env.development
+.env.production
+*.pem
+*.key
+*.cert
+credentials.json
+client_secret*.json
+
+# ==============================================================================
+# Temporary Uploaded Student Datasets (Privacy & Session Confidentiality)
+# Keep the directory structure tracked via .gitkeep but ignore uploaded files
+# ==============================================================================
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ==============================================================================
+# OS & Editor Metadata
+# ==============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
